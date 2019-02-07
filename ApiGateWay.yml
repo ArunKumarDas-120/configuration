@@ -1,0 +1,13 @@
+server:
+  port: 8004
+zuul:
+  routes:
+    wsone:
+      path: /wsone/**
+      service-id: ServiceOne
+      strip-prefix: true
+    wstwo:
+      path: /wstwo/**
+      service-id: ServiceTwo
+      strip-prefix: true
+      
