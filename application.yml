@@ -4,3 +4,18 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://eureka-pear1:8000/eureka,http://eureka-pear2:8001/eureka
+spring:  
+ rabbitmq:
+    port: 5672
+    host: localhost
+    password: guest
+    username: guest
+
+management:
+  endpoint:
+    refresh:
+      enabled: true
+    bus-env:
+      enabled: true
+    bus-refresh:
+      enabled: true
