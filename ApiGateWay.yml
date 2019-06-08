@@ -5,5 +5,5 @@ zuul:
     inventory:
       path: /inventory/**
       service-id: INVENTORYSERVICE
-      strip-prefix: true
+      strip-prefix: false
       
