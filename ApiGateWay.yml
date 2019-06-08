@@ -4,6 +4,6 @@ zuul:
   routes:
     inventory:
       path: /inventory/**
-      service-id: INVENTORYSERVICE
-      strip-prefix: false
+      service-id: INVENTORY_SERVICE
+      strip-prefix: true
       
