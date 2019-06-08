@@ -1,0 +1,14 @@
+server:
+  port: 8111
+  
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+ 
+  datasource:
+    password:
+    username: sa
+    url: jdbc:h2:tcp://localhost:3000/./database/inventory
+    driver-class-name: org.h2.Driver      
