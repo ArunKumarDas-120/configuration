@@ -1,0 +1,6 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka-pear1:${peer1.port}/eureka,http://eureka-pear2:${peer2.port}/eureka
