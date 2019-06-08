@@ -17,5 +17,3 @@ management:
       enabled: true
     bus-env:
       enabled: true
-    bus-refresh:
-      enabled: true
