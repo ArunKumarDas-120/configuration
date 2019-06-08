@@ -10,10 +10,14 @@ spring:
     host: localhost
     password: guest
     username: guest
-
 management:
   endpoint:
     refresh:
       enabled: true
     bus-env:
       enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh
